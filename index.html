@@ -14,7 +14,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <section class ="header">
+    <section id ="header">
         <nav class="navbar navbar-expand-md fixed-top bg">
             <div class="container-fluid">
                 <a class="navbar-brand nav-bar-text rubik-bold" href="#">Jenz Arsen Alabado</a>
@@ -25,13 +25,13 @@
                   <div class="collapse navbar-collapse navbar" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item ">
-                          <a class="nav-link rubik-medium" aria-current="page" href="#">ABOUT ME</a>
+                          <a class="nav-link rubik-medium" aria-current="page" href="#about-me">ABOUT ME</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link rubik-medium" href="#">EXPERIENCE</a>
+                          <a class="nav-link rubik-medium" href="#work-experience">EXPERIENCE</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link rubik-medium" href="#">SKILLS</a>
+                          <a class="nav-link rubik-medium" href="#skills">SKILLS</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link rubik-medium" href="#">PROJECTS</a>
@@ -43,7 +43,7 @@
     </section>
 
     <!-- About Me -->
-    <section class ="about-me">
+    <section id ="about-me">
         <div class = "container mt-5 pt-5">
             <div class ="d-grid pt-5">
                 <div class="row text-center">
@@ -67,9 +67,9 @@
     </section>
     <hr>
     <!-- Work Experience -->
-    <section class ="work-experience">
-        <div class = "container mt-5">
-            <h2 class="text-header text-center rubik-bold">Experience</h2>
+    <section id="work-experience" class ="mt-5">
+        <div class = "container">
+            <h2 class="text-header text-center rubik-bold">Work Experience</h2>
             <div class="d-grid">
                 <div class="row pt-5">
                     <div class ="col-xxl-4 col-lg-6  pb-5">
@@ -117,8 +117,109 @@
 
     <hr>
 
+    <!-- Skills Section -->
+    <section>
+        <div id ="skills" class="container mt-5">
+            <h2 class="text-header text-center rubik-bold">Skills</h2>
+            <div class="d-grid">
+                <div class = "row">
+                    <div class ="col-xxl-4 col-lg-6 py-5"> <!-- Grid Item Start-->
+                        <div class ="d-flex flex-col">
+                            <div class="d-flex flex-row">
+                                <div class ="img-container">
+                                    <img src ="./images/software-icons/unity-logo.jpg">
+                                </div>
+                                <div class ="">
+                                    <h2 class ="rubik-bold">Unity</h2> <!-- Flex Item Title-->
+                                    <p>Experience: 5+ years</p>
+
+                                </div>
+                            </div> <!-- Flex Row-->
+                        </div> <!-- Flex Col-->
+                        <div class ="flex-item m-0 p-0">
+                            <ul class="rubik-bold pt-2 ps-3">Acquired Skills:
+                                <li>Custom Editor Tool Making (For Speeding up Workflow)</li>
+                                <li>Sirenix Odin Inspector Plugin</li>
+                                <li>Unity Addressables</li>
+                                <li>Unity Localization</li>
+                                <li>Asset Serialization, Scriptable Objects</li>
+                                <li>Prefabs Management</li>
+                                <li>I2 Localization</li>
+                                <li>PSD Importer</li>
+                                <li>Mecanim Animator (2D Animations)</li>
+                                <li>ITween (Tweening Animation)</li>
+                                <li>Optimization Techniques (Assets and Build Size)</li>
+                                <li>Unity Profiler</li>
+                                <li>A* Pathfinding</li>
+                                <li>Shaders (Basic Editing)</li>
+                                <li>Playmaker Plugin</li>
+                                <li>Steamworks API</li>
+                                <li>Particle System for VFX Creation (Basic)</li>
+                                <li>Project Organization</li>
+                            </ul>
+                        </div>
+                    </div> <!-- Grid Item End-->
+
+                    <div class ="col-xxl-4 col-lg-6 py-5"> <!-- Grid Item Start-->
+                        <div class ="d-flex flex-col">
+                            <div class="d-flex flex-row">
+                                <div class ="img-container">
+                                    <img src ="./images/software-icons/vs-community.png">
+                                </div>
+                                <div class ="">
+                                    <h2 class ="rubik-bold">Visual Studio Community</h2> <!-- Flex Item Title-->
+                                    <p>Experience: 8+ years</p>
+                                </div>
+                            </div> <!-- Flex Row-->
+                        </div> <!-- Flex Col-->
+                        <div class ="flex-item m-0 p-0">
+                            <ul class="rubik-bold pt-2 ps-3">Acquired Skills:
+                                <li>Custom Editor Tool Making (For Speeding up Workflow)</li>
+                                <li>Sirenix Odin Inspector Plugin</li>
+                                <li>Unity Addressables</li>
+                                <li>Unity Localization</li>
+                                <li>Asset Serialization, Scriptable Objects</li>
+                                <li>Prefabs Management</li>
+                                <li>I2 Localization</li>
+                                <li>PSD Importer</li>
+                                <li>Mecanim Animator (2D Animations)</li>
+                                <li>ITween (Tweening Animation)</li>
+                                <li>Optimization Techniques (Assets and Build Size)</li>
+                                <li>Unity Profiler</li>
+                                <li>A* Pathfinding</li>
+                                <li>Shaders (Basic Editing)</li>
+                                <li>Playmaker Plugin</li>
+                                <li>Steamworks API</li>
+                                <li>Particle System for VFX Creation (Basic)</li>
+                                <li>Project Organization</li>
+                            </ul>
+                        </div>
+                    </div> <!-- Grid Item End-->
+                </div> <!-- Grid Row-->
+            </div> <!-- Grid-Container -->
+        </div> <!-- Container -->
+    </section> <!-- Skills -->
 
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- JQuery for Scrolling to Section-->
+    <script>
+       $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 500);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
 </body>
 </html>

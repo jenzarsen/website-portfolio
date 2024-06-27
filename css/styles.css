@@ -8,6 +8,21 @@
 }
 
 
+h2{
+    font-size: 1.75em;
+    color : #02bca6;
+}
+
+ul {
+    font-size: 1.5em;
+    list-style-position: inside;
+    color : #02bca6;
+}
+
+li {
+    padding-left: 0.5rem;
+    color : black;
+}
 
 p {
     margin: 0px;
@@ -39,7 +54,10 @@ hr{
 img{
     width: 150px;
     height: 150px;
+    object-fit: contain;
     background-color: white;;
+    border: 2px solid #02bca6;
+    border-radius: 5%;
 }
 
 .profile-img{
