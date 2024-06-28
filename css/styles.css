@@ -63,6 +63,14 @@ img{
     border-radius:20%;
 }
 
+.img-project{
+    height: 180px;
+    width: 360px;
+    object-fit: cover;
+    border: 3px solid #02bca6;
+    border-radius: 5px;
+}
+
 .profile-img{
     border-radius: 50%;
     border: 2px solid #02bca6;
@@ -82,4 +90,8 @@ img{
 .img-container{
     padding-right: 1em;
     padding-left: 1em;
+}
+
+.flex-text{
+    max-width: 360px;
 }
