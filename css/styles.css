@@ -69,13 +69,13 @@ img{
     min-height: 180px;
     min-width: 360px;
     object-fit: cover;
-    border: 3px solid #02bca6;
-    border-radius: 5px;
+    border: 5px solid #02bca6;
+    border-radius: 8px;
 }
 
 .profile-img{
     border-radius: 50%;
-    border: 2px solid #02bca6;
+    border: 3px solid #02bca6;
     width: 200px;
     height: 200px;
     justify-content: center;
@@ -107,7 +107,7 @@ span {
 
 .grid-item{
     background-color: #eeefef;
-    border-radius: 10px;
+    border-radius: 16px;
 }
 
 a{
@@ -116,4 +116,12 @@ a{
 
 a:hover{
     color: #0268DB;
+}
+
+#footer{
+    background-color: #0268DB;
+}
+
+.nav-item{
+    color:white;
 }
