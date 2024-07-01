@@ -1,5 +1,6 @@
 .bg {
     background-color:#0268DB;
+    background-image: linear-gradient(360deg,#0268DB, #02bca6);
     border-bottom: 2px solid #4B8FDB;
 }
 
@@ -71,6 +72,11 @@ img{
     object-fit: cover;
     border: 5px solid #02bca6;
     border-radius: 8px;
+    
+}
+
+#grad{
+    background-image: linear-gradient(40deg,red, #02bca6);
 }
 
 .profile-img{
@@ -120,6 +126,7 @@ a:hover{
 
 #footer{
     background-color: #0268DB;
+    background-image: linear-gradient(to bottom,#0268DB, #02bca6);
 }
 
 .nav-item{
